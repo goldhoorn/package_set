@@ -1,0 +1,14 @@
+# Use GITORIOUS_ROOT and GITORIOUS_PUSH_ROOT for the packages that are on Gitorious
+# Use SPACEGIT_ROOT and SPACEGIT_PUSH_ROOT for the packages that are on spacegit
+
+name: goldhoorn 
+
+#imports:
+#  - spacegit: rock-dfki/package_set
+# TODO fix imports
+
+version_control:
+  - tools/constrained_based_networks:
+      github: tools/$PACKAGE_BASENAME 
+      branch: $ROCK_FLAVOR
+  
