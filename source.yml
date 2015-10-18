@@ -9,6 +9,6 @@ name: goldhoorn
 
 version_control:
   - tools/constrained_based_networks:
-      github: tools/$PACKAGE_BASENAME 
-      branch: $ROCK_FLAVOR
+      github: goldhoorn/constrained_based_networks
+      branch: master 
   
