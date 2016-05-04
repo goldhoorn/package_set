@@ -1,2 +1,2 @@
 cmake_package 'tools/constrained_based_networks'
-
+import_package 'bundles/constraint-sandbox'

@@ -10,5 +10,8 @@ name: goldhoorn
 version_control:
   - tools/constrained_based_networks:
       github: goldhoorn/constrained_based_networks
-      branch: master 
+      branch: master
+  - bundles/constraint-sandbox:
+      github: goldhoorn/constraint-sandbox
+      branch: master
   
